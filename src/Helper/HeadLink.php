@@ -399,7 +399,7 @@ class HeadLink extends Placeholder\Container\AbstractStandalone
             $extras = (array) $extras;
         }
 
-        $attributes = compact('rel', 'type', 'href', 'media', 'conditionalStylesheet', 'extras');
+        $attributes = compact('rel', 'type', 'href', 'media', 'conditionalStylesheet');
 
         return $this->createData($attributes);
     }
